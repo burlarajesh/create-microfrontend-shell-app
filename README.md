@@ -1,1 +1,1 @@
-# create--microfrontend-shell-app
+# create-microfrontend-shell-app

@@ -1,0 +1,16 @@
+﻿.sideNavBar {
+  height: 100%;
+  width: 300px;
+  border-right: 1px #ccc solid;
+  padding: 5px;
+  transition: 0.3s;
+
+  &.collapsed {
+    width: 75px;
+    transition: 0.3s;
+
+    .list-group {
+      display: none;
+    }
+  }
+}

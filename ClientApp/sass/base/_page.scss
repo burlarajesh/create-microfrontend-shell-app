@@ -1,0 +1,59 @@
+body {
+  height: 100%;
+  font-family: $font-family;
+  font-size: pxToRem($font-m);
+  color: $font-color;
+  background-color: $nc-v-pale-gray;
+  min-width: 960px;
+}
+
+.header1 {
+  font-size: pxToRem($font-xl);
+
+  &--bold {
+    font-weight: bold;
+  }
+}
+
+.header2 {
+  font-size: pxToRem($font-l);
+  &--bold {
+    font-weight: bold;
+  }
+}
+
+.main-wrapper {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  position: fixed;
+  height: 100%;
+}
+
+.content {
+  width: 100%;
+  padding: 20px;
+  height: calc(100% - 57px); /* 100% of height minus the height of the header */
+  overflow: auto;
+}
+
+.padded-label {
+  padding: 2px 15px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 20px;
+
+  &:hover {
+    background: $nc-lt-gray;
+  }
+}
+
+::-webkit-scrollbar-track {
+  background: #eee;
+}

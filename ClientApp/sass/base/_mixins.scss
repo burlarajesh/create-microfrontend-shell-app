@@ -1,0 +1,11 @@
+
+@mixin mix-border-radius($val){
+    border-radius: $val;
+    -webkit-border-radius: $val;
+    -moz-border-radius: $val;
+}
+
+@mixin mix-square($val){
+    height: $val;
+    width: $val;
+}

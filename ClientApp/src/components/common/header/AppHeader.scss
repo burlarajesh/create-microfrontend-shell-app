@@ -1,0 +1,10 @@
+﻿@import "../../../../sass/base/colors";
+
+.navbar{
+  background-color: $pc-app-accent1;
+  color: white;
+
+  .navbar-brand{
+    color: white;
+  }
+}
