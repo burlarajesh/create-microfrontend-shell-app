@@ -4,3 +4,5 @@
 
 /.vs/create--microfrontend-shell-app/config
 /.vs/slnx.sqlite
+node_modules/
+/.vs
